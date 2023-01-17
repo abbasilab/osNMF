@@ -7,6 +7,9 @@ Note: add authors, abstract, 1-2 figures
 * Stability framework to ensure stability of PPs
 * Interpretabilility via gene reconstructions for each PP
 
+## Requirements
+Various Python packages
+
 ## Code
 https://github.com/abbasilab/DecGene
 
