@@ -17,5 +17,5 @@ https://github.com/abbasilab/DecGene
 Last update: Jan/Feb 2023, v1.0
 
 ## Reference
-Please citing this reference: TBD
+Please cite using this reference: TBD
 
