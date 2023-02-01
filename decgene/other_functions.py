@@ -232,8 +232,9 @@ def visualize_gene(geneA, template=0, colorA='green', missing_mask=True):
 
 
 def filter_genes(coefs, pps, threshold = .99):
-    large_coefs = np.max(coefs[:, pps], 1) / np.sum(coefs, 1)
-    return large_coefs > np.quantile(large_coefs, threshold)
+	import numpy as np
+	large_coefs = np.max(coefs[:, pps], 1) / np.sum(coefs, 1)
+	return large_coefs > np.quantile(large_coefs, threshold)
 
 
 def weighted_correlation(A, weights, demean=True):

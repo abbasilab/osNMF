@@ -8,7 +8,7 @@ Note: add authors, abstract, 1-2 figures
 * Interpretabilility via gene reconstructions for each PP
 
 ## Requirements
-Various Python packages
+Python packages: matplotlib, napari, networkx, nrrd, numpy, os, pandas, pickle, sklearn
 
 ## Code
 https://github.com/abbasilab/DecGene
