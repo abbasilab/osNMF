@@ -241,6 +241,9 @@ def weighted_correlation(A, weights, demean=True):
     '''
     Compute the weighted correlation between columns of A using the weights.
     '''
+
+    import numpy as np
+
     if demean:
         A = A - np.mean(A, 0, keepdims=True)
     mean_A = 0#np.sum(A * weights, 1, keepdims=True) / np.sum(weights)
