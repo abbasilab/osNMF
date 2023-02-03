@@ -33,6 +33,7 @@ def show_graph_with_labels(adjacency_matrix, mylabels, colors, title=""):
 	""" Function to generate graphs of correlation networks """
 
 	import matplotlib.pyplot as plt
+	import networkx as nx
 	import numpy as np
 
 	fig1, f1_axes = plt.subplots(ncols=2, nrows=2, constrained_layout=True, figsize=(25, 14))
