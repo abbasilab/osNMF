@@ -1,6 +1,6 @@
 # DecGene: Unsupervised pattern discovery in spatial gene expression atlas reveals mouse brain regions beyond established ontology
 
-Note: add authors, abstract, 1-2 figures
+(To update authors and link once paper is posted.)
 
 ## Use
 * Unsupervised identification of principal patterns (PPs) from spatial gene expression and spatial transcriptomics data
@@ -14,7 +14,7 @@ Python packages: matplotlib, napari, networkx, nrrd, numpy, os, pandas, pickle, 
 https://github.com/abbasilab/DecGene
 
 ## Version
-Last update: Jan/Feb 2023, v1.0
+Last update: Feb 2023, v1.0
 
 ## Reference
 Please cite with this reference: TBD
