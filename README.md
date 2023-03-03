@@ -11,7 +11,9 @@ Preprint link coming shortly
 * Interpretabilility via gene reconstructions for each PP
 
 ## Requirements
+
 Python 3.9
+
 Python packages: matplotlib, napari, networkx, nrrd, numpy, os, pandas, pickle, sklearn
 
 ## Code
