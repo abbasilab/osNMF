@@ -1,4 +1,4 @@
-""" Other functions for DecGene"""
+""" Other functions for osNMF"""
 
 def geneReconstructionAcccuracy(_PPs, _coeffs, _filtered_data):
 	""" function create gene-by-gene reconstruction accuracy """

@@ -1,4 +1,4 @@
-""" Stability-related functions for DecGene"""
+""" Stability-related functions for osNMF"""
 
 """ Drawn from Yu Group's implementation of sklearn_NMF """
 """ Source: https://github.com/Yu-Group/staNMF/blob/master/staNMF/nmf_models/sklearn_nmf.py """
