@@ -36,7 +36,7 @@ def show_graph_with_labels(adjacency_matrix, mylabels, colors, title=""):
 	import networkx as nx
 	import numpy as np
 
-	fig1, f1_axes = plt.subplots(ncols=2, nrows=2, constrained_layout=True, figsize=(25, 14))
+	fig1, f1_axes = plt.subplots(ncols=1, nrows=1, constrained_layout=True, figsize=(8, 4))
 	rows, cols = np.where(adjacency_matrix > 0)
 	edges = [(x, y) for x, y in zip(rows.tolist(), cols.tolist()) if x > y]
 	edge_colors = np.array([adjacency_matrix[edge[0], edge[1]] for edge in edges])
@@ -50,7 +50,7 @@ def show_graph_with_labels(adjacency_matrix, mylabels, colors, title=""):
 	gr.remove_nodes_from(remove)
 	nodes = set(ind for ind, name in gr.degree())
 	pos = nx.circular_layout(gr)
-	f1_axes[1, 1].set_xlim([-2, 2])
+	f1_axes.set_xlim([-2, 2])
 	plt.ylim([-2, 2])
 	nx.draw(
 		gr,
@@ -70,7 +70,7 @@ def show_graph_with_labels(adjacency_matrix, mylabels, colors, title=""):
 	)
 	description = nx.draw_networkx_labels(gr, {k: (v[0] * 1.25, v[1] * 1.25) for k, v in pos.items()},
 	                                      labels={k: v for k, v in mylabels.items() if k in gr})
-	sm = plt.cm.ScalarMappable(cmap=plt.cm.copper_r, norm=plt.Normalize(vmin=np.min(colors), vmax=np.max(colors)))
+	sm = plt.cm.ScalarMappable(cmap=plt.cm.copper_r, norm=plt.Normalize(vmin=0.4, vmax=1))
 	sm._A = []
 	plt.colorbar(sm)
 	plt.title(title)
