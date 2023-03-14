@@ -2,7 +2,7 @@
 
 Authors: Robert Cahill, Yu Wang, Alex Lee, Hongkui Zeng, Bin Yu, Bosiljka Tasic, Reza Abbasi-Asl
 
-Manuscript link to BioRxiv: https://www.biorxiv.org/content/10.1101/2023.03.10.531984v1
+Manuscript link on BioRxiv: https://www.biorxiv.org/content/10.1101/2023.03.10.531984v1
 
 ## Use
 * Unsupervised identification of principal patterns (PPs) from spatial gene expression and spatial transcriptomics data
