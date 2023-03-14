@@ -2,7 +2,7 @@
 
 Authors: Robert Cahill, Yu Wang, Alex Lee, Hongkui Zeng, Bin Yu, Bosiljka Tasic, Reza Abbasi-Asl
 
-Preprint link coming shortly
+Manuscript link to BioRxiv: https://www.biorxiv.org/content/10.1101/2023.03.10.531984v1
 
 ## Use
 * Unsupervised identification of principal patterns (PPs) from spatial gene expression and spatial transcriptomics data
@@ -22,5 +22,5 @@ https://github.com/abbasilab/osNMF
 ## Version
 Last update: Mar 2023, v1.0
 
-## Reference
-Please cite with this reference: TBD
+## Citation
+Robert Cahill, Yu Wang, Alex Lee, Hongkui Zeng, Bin Yu, Bosiljka Tasic, Reza Abbasi-Asl. Unsupervised pattern discovery in spatial gene expression atlas reveals mouse brain regions beyond established ontology. bioRxiv 2023.03.10.531984; doi: https://doi.org/10.1101/2023.03.10.531984
